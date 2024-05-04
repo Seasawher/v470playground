@@ -1,5 +1,7 @@
 import Mathlib.Tactic
 
+set_option says.verify true
+
 variable (n m : Nat)
 
 example (h : n + m = 0) : n = 0 ↔ m = 0 := by
