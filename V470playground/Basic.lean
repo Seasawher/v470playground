@@ -1,6 +1,6 @@
 import Mathlib.Tactic
 
-variable (n m : Int)
+variable (n m : Nat)
 
 example (h : n + m = 0) : n = 0 ↔ m = 0 := by
   -- success in v4.7.0
